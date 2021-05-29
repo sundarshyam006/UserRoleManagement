@@ -40,7 +40,7 @@ class ProductController extends Controller
     public function create()
     {
         $menus = $this->menus;
-        return view('products.create','menus');
+        return view('products.create',compact('menus'));
     }
     
     /**

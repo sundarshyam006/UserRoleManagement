@@ -4,10 +4,10 @@
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
-            <div class="pull-left">
+            <div class="float-left">
                 <h2>Products</h2>
             </div>
-            <div class="pull-right">
+            <div class="float-right">
                 @can('Products')
                 <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
                 @endcan
